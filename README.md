@@ -10,7 +10,7 @@ The tool can also be implemented into your own code such as shown in the example
 
 import LP_Tool
 
-LP = LP_Too.get_LP("Ti0.5V0.5")
+LP = LP_Tool.get_LP("Ti0.5V0.5")
 
 -This script uses pymatgen (https://pymatgen.org/) to process the input string and is thus a requirement for the script to work. Depending on the version of pymatgen you have installed, lines 3 and 380 may need to be modified (https://matsci.org/t/python-problem-with-pymatgen/35720)
 
